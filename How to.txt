@@ -1,0 +1,26 @@
+Before running the code you need to install a few things in your PC and I will also give the commands to install them next to it
+1. Python
+2. selenium: pip install selenium
+   and if the code doesn't work you can use "pip install --upgrade selenium" as I encountered this issue.
+3. BeautifulSoup: pip install beautifulsoup4
+
+4. requests: pip install requests
+
+Although these come pre-installed in Python but if you don't have them then-
+i)time: pip install time
+ii)os: pip install os
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Now as to access the search engine you will need to have the chromedriver, so I will give you that in the Google Drive to, just download it and you need to 
+write the path to chrome driver in the variable chrome_driver_path (Line 24)
+chrome_driver_path="put path to the chromedriver.exe here" [e.g. "C:\Downloads\chromedriver.exe"]
+
+2.Then you have to provide the path to the folder where you want to save the images to. When you run the program it will make a folder with the searched term in the
+given path. So write the path in the variable folder_path (Line 90)
+folder_path="put path to the folder here"
+
+_____________________________________________________________________________________________________________________________________________________________________________
+
+(i)  Now when you run the code, you have to search for the term you want to search for (e.g. cats) and then press enter. 
+(ii) Then it will ask for how many images you want to download and you enter the amount
+(iii)Then you will need to wait for a bit while the images get downloaded into the System Folder.
