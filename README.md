@@ -1,15 +1,30 @@
 ## Web Scraper for Images
 This code is designed to download images from the internet using a specified keyword and save them to a designated folder.
+## Features
+- Downloads a specified number of images related to a given keyword from any server.
+- Uses Selenium for browser automation and BeautifulSoup for parsing HTML content.
+## Installation
 
-Here's a breakdown of what the code does and the modules and functions it utilizes:
-Modules:
+- Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/WebScraper.git
+   cd WebScraper
+- **Create a Virtual Environment**:
+  ```sh
+  python -m venv venv
+  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+- **Install Dependencies**:
+  ```sh
+  pip install -r requirements.txt
 
- os: Provides functions for interacting with the operating system, such as 
- creating directories and handling file paths.
- time: Offers time-related functions, used for adding delays during the scrolling process.
- requests: Enables sending HTTP requests to retrieve image data.
- BeautifulSoup (from bs4 package): A library for parsing HTML and XML documents. Here, it's used to parse the page source of Google Images.
- selenium: A web testing framework that allows automation of web browsers. It's used here to control the Chrome browser and interact with Google Images.
+## Dependencies
+
+ - os: Provides functions for interacting with the operating system, such as creating directories and handling file paths.
+ - time: Offers time-related functions, used for adding delays during the scrolling process.
+ - requests: Enables sending HTTP requests to retrieve image data.
+ - BeautifulSoup (from bs4 package): A library for parsing HTML and XML documents. Here, it's used to parse the page source of Google Images.
+ - selenium: A web testing framework that allows automation of web browsers. It's used here to control the Chrome browser and interact with Google Images.
+ - Chrome WebDriver (`chromedriver.exe` for Windows, or `chromedriver` for macOS/Linux) must be installed and configured in the system PATH.
 Functions:
 
     download_images(keyword, num_images, folder_path): This function is responsible for the main image downloading process. It takes three parameters:
