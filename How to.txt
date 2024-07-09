@@ -11,7 +11,7 @@ i)time: pip install time
 ii)os: pip install os
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. Now as to access the search engine you will need to have the chromedriver, Download the appropriate version of Chromedriver for your operating system from https://sites.google.com/a/chromium.org/chromedriver/downloads.
+1. Now as to access the search engine you will need to have the chromedriver, Download the appropriate version of Chromedriver for your operating system from https://sites.google.com/chromium.org/driver/downloads.
 write the path to chrome driver in the variable chrome_driver_path (Line 24)
 chrome_driver_path="put path to the chromedriver.exe here" [e.g. "C:\Downloads\chromedriver.exe"]
 
