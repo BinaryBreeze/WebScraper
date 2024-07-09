@@ -21,7 +21,7 @@ def download_images(keyword, num_images, folder_path):
     chrome_options.add_argument("--disable-dev-shm-usage")
 
     # Set path to chromedriver in your system
-    chrome_driver_path = "E:\Web Crawling\chromedriver.exe"
+    chrome_driver_path = "chromedriver.exe"
     service = Service(chrome_driver_path)
 
     # Start the ChromeDriver service
@@ -87,6 +87,6 @@ def download_images(keyword, num_images, folder_path):
 # Example usage
 keyword = input("Enter the search term: ")
 num_images = int(input("Enter the number of images to download: "))
-folder_path = "E:\Web Crawling\Web scraped"
+folder_path = "Web scraped"
 
 download_images(keyword, num_images, folder_path)
