@@ -63,4 +63,7 @@ This code is designed to download images from the internet using a specified key
 - Prints the number of images downloaded.
 - Displays a warning if the requested number of images could not be downloaded.
 - The user will be asked for the keyword and then the number of images to be downloaded, and then the images will be saved in the folder you asked.
+## License
+
+This project is licensed under the Apache License 2.0 . See the [LICENSE](LICENSE) file for details.
 
