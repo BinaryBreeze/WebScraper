@@ -1,3 +1,4 @@
+## Web Scraper for Images
 This code is designed to download images from the internet using a specified keyword and save them to a designated folder.
 
 Here's a breakdown of what the code does and the modules and functions it utilizes:
