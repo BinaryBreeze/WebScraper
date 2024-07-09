@@ -1,10 +1,10 @@
 Before running the code you need to install a few things in your PC and I will also give the commands to install them next to it
 1. Python
-2. selenium: pip install selenium
+2. Create a Virtual Environment, e.g. on Linux as: python -m venv [NAME] 
+3. selenium: pip install selenium
    and if the code doesn't work you can use "pip install --upgrade selenium" as I encountered this issue.
-3. BeautifulSoup: pip install beautifulsoup4
-
-4. requests: pip install requests
+4. BeautifulSoup: pip install beautifulsoup4
+5. requests: pip install requests
 
 Although these come pre-installed in Python but if you don't have them then-
 i)time: pip install time
